@@ -1,0 +1,20 @@
+.my_carusel_container, .my_carusel_content {
+	position: relative;
+	overflow: hidden;
+}
+.my_carusel_content img { float: left; }
+.my_carusel_arrow {
+	color: #fff;
+	position: absolute;
+	padding: 13px;
+	margin: 3px;
+	background: #ccc;
+	border-radius: 7px;
+	opacity: 0.3;
+	width: 20px;
+	text-align: center;
+	display: inline-block;
+	cursor: pointer;
+}
+.my_carusel_left-arrow { left: 20px; }
+.my_carusel_right-arrow { right: 20px; }
